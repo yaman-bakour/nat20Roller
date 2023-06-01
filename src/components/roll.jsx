@@ -182,11 +182,11 @@ const Roll = () => {
             </div>
 
             <div className='condition row w-100'>
-                <button className={`col btn btn-outline-success font-weight-bold ${advantage ? "active" : ""}`} onClick={setConditionAdvantage}>Advantage</button>
-                <button className={`col btn btn-outline-danger ${disadvantage ? "active" : ""}`} onClick={setConditionDisadvantage}>disadvantage</button>
+                <div className={`advantage col font-weight-bold ${advantage ? "active" : ""}`} onClick={setConditionAdvantage}>Advantage</div>
+                <div className={`disadvantage col font-weight-bold ${disadvantage ? "active" : ""}`} onClick={setConditionDisadvantage}>Disadvantage</div>
             </div>
 
-            <div className='roll-log' style={{}}>
+            <div className='roll-log'>
                     <Logs 
                     rollLog = {rollLog}
                     rollDetails = {rollDetails}

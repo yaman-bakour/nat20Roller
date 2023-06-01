@@ -2,6 +2,50 @@
     background-color: #bbb;
 }
 
+.advantage{
+    border: 1px solid rgb(92, 184, 92);
+    text-align: center;
+    color: rgb(92, 184, 92);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.advantage:hover{
+    background-color: rgb(92, 184, 92);
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.advantage.active{
+    background-color: rgb(92, 184, 92);
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.disadvantage{
+    border: 1px solid #df4759;
+    text-align: center;
+    color: #df4759;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.disadvantage:hover{
+    background-color: #df4759;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.disadvantage.active{
+    background-color: #df4759;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
 .dice-buttons{
     right: 1%;
     position: fixed;
