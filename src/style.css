@@ -1,0 +1,18 @@
+.app{
+    background-color: #bbb;
+}
+
+.dice-buttons{
+    right: 1%;
+    position: fixed;
+}
+
+.condition{
+    top: 1%;
+    position: fixed;
+}
+
+.log{
+    overflow: scroll;
+    background-color: #bbb;
+}
