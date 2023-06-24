@@ -2,12 +2,17 @@
     background-color: #bbb;
 }
 
+input{
+    background-color:  #ccc;
+}
+
 .advantage{
     border: 1px solid rgb(92, 184, 92);
     text-align: center;
     color: rgb(92, 184, 92);
     padding: 8px;
     border-radius: 5px;
+    background-color: #bbb;
 }
 
 @media (hover : hover) {
@@ -41,6 +46,7 @@
     color: #df4759;
     padding: 8px;
     border-radius: 5px;
+    background-color: #bbb;
 }
 
 
@@ -53,16 +59,30 @@
 }
 
 .dice-buttons{
+    top: 22%;
     right: 1%;
     position: fixed;
 }
 
 .condition{
-    top: 1%;
+    top: 0%;
     position: fixed;
 }
 
 .log{
     overflow: scroll;
     background-color: #bbb;
+}
+
+button{
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.maxHP{
+    font-size: 24px;
+}
+
+.hp input{
+    font-size: 24px;
 }

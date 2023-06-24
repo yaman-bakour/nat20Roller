@@ -10,7 +10,7 @@ const Logs = (props) => {
     })
 
     return ( 
-        <div className='log' id="log" style={{maxWidth : logWidth , height : window.innerHeight - 48}}>
+        <div className='log' id="log" style={{maxWidth : logWidth , height : window.innerHeight*0.75 - 48}}>
             {rollDetails.map((a,b) => {
                 let logResult = a.reduce((result , die) => {
                     return result += die + " + "
